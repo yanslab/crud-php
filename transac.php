@@ -5,10 +5,10 @@
        
 $fname = $_POST['firstname'];
 $mname = $_POST['Middlename'];
-$lname = $_POST['lastname'];
+$lname = $_POST['Lastname'];
 $address = $_POST['Address'];
 $contct = $_POST['Contact'];
-$comment = $_POST['comment'];
+$comment = $_POST['Comment'];
 
 switch ($_GET['action'])
 {

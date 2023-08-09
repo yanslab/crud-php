@@ -102,13 +102,13 @@ $query = 'SELECT * FROM people
                                 <input type="hidden" name="id" value="<?php echo $zz; ?>" />
                             </div>
                             <div class="form-group">
-                              <input class="form-control" placeholder="First Name" name="firstname" value="<?php echo $i; ?>">
+                              <input class="form-control" placeholder="First Name" name="Firstname" value="<?php echo $i; ?>">
                             </div>
                             <div class="form-group">
                               <input class="form-control" placeholder="Middle Name" name="Middlename" value="<?php echo $a; ?>">
                             </div> 
                             <div class="form-group"> 
-                              <input class="form-control" placeholder="Last Name" name="lastname" value="<?php echo $b; ?>">
+                              <input class="form-control" placeholder="Last Name" name="Lastname" value="<?php echo $b; ?>">
                             </div>
                             <div class="form-group">
                               <input class="form-control" placeholder="Address" name="Address" value="<?php echo $c; ?>">
@@ -118,7 +118,7 @@ $query = 'SELECT * FROM people
                             </div> 
                             <div class="form-group">
                              <label>Comment</label>
-                              <textarea class="form-control" rows="3"  name="comment"><?php echo $e; ?></textarea>
+                              <textarea class="form-control" rows="3"  name="Comment"><?php echo $e; ?></textarea>
                             </div>  
                             <button type="submit" class="btn btn-default">Update Record</button>
                          

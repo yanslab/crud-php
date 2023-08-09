@@ -83,13 +83,13 @@
                         <form role="form" method="post" action="transac.php?action=add">
                             
                             <div class="form-group">
-                              <input class="form-control" placeholder="First Name" name="firstname">
+                              <input class="form-control" placeholder="First Name" name="Firstname">
                             </div>
                             <div class="form-group">
                               <input class="form-control" placeholder="Middle Name" name="Middlename">
                             </div> 
                             <div class="form-group">
-                            <input class="form-control" placeholder="Last Name" name="lastname">
+                            <input class="form-control" placeholder="Last Name" name="Lastname">
                             </div> 
                             <div class="form-group">
                               <input class="form-control" placeholder="Address" name="Address">
@@ -99,7 +99,7 @@
                             </div> 
                             <div class="form-group">
                              <label>Comment</label>
-                              <textarea class="form-control" rows="3"  name="comment"></textarea>
+                              <textarea class="form-control" rows="3"  name="Comment"></textarea>
                             </div>  
                             <button type="submit" class="btn btn-default">Save Record</button>
                             <button type="reset" class="btn btn-default">Clear Entry</button>
